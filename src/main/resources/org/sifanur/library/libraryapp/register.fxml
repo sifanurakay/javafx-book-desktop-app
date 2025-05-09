@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.sifanur.library.libraryapp.RegisterController"
+            stylesheets="@styles.css"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox alignment="CENTER" spacing="10.0" layoutX="50" layoutY="30" prefWidth="300" prefHeight="200">
+        <Label text="Kayıt Ol" styleClass="header" />
+        <TextField fx:id="tcField" promptText="TC Kimlik No" styleClass="text-field" />
+        <PasswordField fx:id="passwordField" promptText="Sifre" styleClass="text-field"/>
+    <Button text="Kayıt Ol" onAction="#handleRegister" styleClass="button"/>
+    <Button text="Giriş Ekranına Dön" onAction="#goToLogin" styleClass="button"/>
+    </VBox>
+</AnchorPane>

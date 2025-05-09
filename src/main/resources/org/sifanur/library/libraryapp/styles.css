@@ -1,0 +1,41 @@
+/* Genel stil */
+* {
+    font-family: "Arial", sans-serif;
+}
+
+/* Başlık stil */
+.header {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* TextField stil */
+.text-field {
+    -fx-padding: 10px;
+    -fx-background-color: #ecf0f1;
+    -fx-border-radius: 5px;
+    -fx-border-color: #bdc3c7;
+    -fx-font-size: 14px;
+}
+
+/* Button stil */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+/* Button hover efekti */
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* ListView stil */
+.list-view {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5px;
+}
